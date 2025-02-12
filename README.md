@@ -9,8 +9,9 @@ Graduated in May 2024 from **University of Maryland** 🎓
 - 🔹 Interested in **Finance, Trading Algorithms, and Web Development**  
 - 🔹 Exploring **Bartending in DC Partime** 🍸🇺🇸  
 
-## 📫 Connect with Me  
-[![LinkedIn]((https://img.shields.io/badge/LinkedIn-Nila-blue?logo=linkedin)][https://www.linkedin.com/in/nila-karthikesan/]))
+## 📫 Connect with Me
+
+🔗 LinkedIn: https://www.linkedin.com/in/nila-karthikesan/
 
 ---
 ⭐️ _Check out my GitHub repositories for more cool projects!_
