@@ -10,7 +10,7 @@ Graduated in May 2024 from **University of Maryland** 🎓
 - 🔹 Exploring **Bartending in DC Partime** 🍸🇺🇸  
 
 ## 📫 Connect with Me  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nila-blue?logo=linkedin)]([https://www.linkedin.com/in/nilakarthikesan/](https://www.linkedin.com/in/nila-karthikesan/)) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nila-blue?logo=linkedin)]([(https://www.linkedin.com/in/nila-karthikesan/)]) 
 
 ---
 ⭐️ _Check out my GitHub repositories for more cool projects!_
