@@ -17,8 +17,8 @@ Graduated in May 2024 from **University of Maryland** 🎓
 - **Optimizes portfolio allocations** using **Modern Portfolio Theory (MPT)**  
 - Built with **Python, Pandas, Matplotlib, and SciPy Optimization**
 
-## Work 
-### 🔹 [UCS Server Automation](https://github.com/nilakarthikesan/UCS_Automation)  
+## ‎‍💼 Work 
+### 🔹 [UCS Server Automation] 
 🔧 **Automating Server Management** at GEICO  
 - **Python & PowerBI** | Data fetching from **Cisco UCS & VMware**
 
