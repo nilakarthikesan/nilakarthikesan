@@ -10,7 +10,7 @@ Graduated in May 2024 from **University of Maryland** 🎓
 - 🔹 Exploring **Bartending in DC Partime** 🍸🇺🇸
 
 ## 🚀 My Projects
-### 🔹 [Stock Analyzer](https://github.com/nilakarthikesan/StockAnalyzer)  
+### [Stock Analyzer](https://github.com/nilakarthikesan/StockAnalyzer)  
 📊 **Automated Stock Data Insights & Portfolio Optimization**  
 - Fetches real-time stock data using **Yahoo Finance API**  
 - Calculates **P/E Ratio, EPS, and other key performance indicators (KPIs)**  
@@ -18,7 +18,6 @@ Graduated in May 2024 from **University of Maryland** 🎓
 - Built with **Python, Pandas, Matplotlib, and SciPy Optimization**
 
 ## ‎‍💼 Work 
-### 🔹 [UCS Server Automation] 
 🔧 **Automating Server Management** at GEICO  
 - **Python & PowerBI** | Data fetching from **Cisco UCS & VMware**
 
