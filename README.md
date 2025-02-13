@@ -18,7 +18,7 @@ Graduated in May 2024 from **University of Maryland** 🎓
 - Built with **Python, Pandas, Matplotlib, and SciPy Optimization**
 
 ### [Job Board App](https://github.com/nilakarthikesan/job-board-app)
-🛠** A modern job board application to help users find and apply for jobs with ease**
+🛠 **A modern job board application to help users find and apply for jobs with ease**
 - Built with Next.js, TailwindCSS, and MongoDB for a seamless experience.
 
 ## ‎‍💼 Work 
