@@ -7,7 +7,7 @@ Graduated in May 2024 from **University of Maryland** 🎓
 - 🔹 Passionate about software development and AI  
 - 🔹 Experienced in **Python, SQL, and Full-Stack Dev**  
 - 🔹 Interested in **Finance, Trading Algorithms, and Web Development**  
-- 🔹 Exploring **Bartending in DC Partime** 🍸🇺🇸
+
 
 ## 🚀 My Projects
 ### [Stock Analyzer](https://github.com/nilakarthikesan/StockAnalyzer)  
