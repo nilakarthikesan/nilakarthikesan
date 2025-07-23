@@ -39,7 +39,7 @@ Currently based in **New York City** 🗽
 
 ## ‎‍💼 Work Experience  
 
-🔧 **Software Engineer Intern – GEICO**  
+🔧 **Software Engineer – GEICO**  
 - Automating internal tools to manage and track physical server data  
 - Building APIs to fetch and structure server data from **Cisco UCS & VMware**  
 - Tools: **Python, PostgreSQL, PowerBI**
