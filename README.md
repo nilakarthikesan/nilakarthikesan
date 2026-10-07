@@ -1,12 +1,10 @@
 # Nila Karthikesan
 
-I'm a security engineer at Pinterest and a computer science master's student at Georgia Tech.
+I'm a security engineer at Pinterest and a computer science master's student at Georgia Tech, specializing in artificial intelligence.
 
 At Pinterest, I work on cloud governance, Terraform automation, employee access tooling, and centralized audit logging across AWS and GCP. I collaborate with vendors and internal engineering teams to integrate security tooling and roll out infrastructure security controls.
 
-My earlier experience includes infrastructure APIs and data pipelines at GEICO, and CLIP-based content moderation and retrieval at Comcast.
-
-I'm interested in the safety and reliability of AI systems, with research experience in agent evaluation and robotics. My work on language model agents has focused on untrusted context and information flow.
+I'm interested in the safety and reliability of AI systems. My work at Georgia Tech includes agent evaluation and interactive 3D reconstruction visualization; my robotics experience includes policy training and evaluation in simulation.
 
 ## Selected projects
 
@@ -16,6 +14,13 @@ I'm interested in the safety and reliability of AI systems, with research experi
 - [LeRobot Behavior Cloning Evaluation](https://github.com/nilakarthikesan/lerobot-bc-eval): ACT and Diffusion Policy training, checkpoint comparisons, and simulation evaluation.
 - [GTSfM Visualization](https://github.com/nilakarthikesan/visualization-gtsfm-paper): Interactive 3D reconstruction visualization, including hierarchical merge playback.
 - [Franka IK and Viser](https://github.com/nilakarthikesan/franka-ik-viser): Damped least-squares inverse kinematics, joint-limit handling, and interactive visualization for a Franka arm.
+
+## Engineering experience
+
+- **Pinterest — Software Engineer, Security Platform** (October 2025–present): Cloud governance, Terraform automation, access tooling, and audit logging across AWS and GCP.
+- **GEICO — Software Engineer** (May 2024–October 2025): Infrastructure APIs and server-inventory data pipelines using React, GraphQL, PostgreSQL, and Python.
+- **Palantir — Software Engineering Fellow** (December 2023–January 2024): A fellowship focused on backend services, containerization, and deployment workflows.
+- **Comcast — Software Engineering Intern, Applied AI** (May–August 2023): CLIP-based content moderation and retrieval using Flask, React, Elasticsearch, Docker, and Kubernetes.
 
 ## Publication
 
