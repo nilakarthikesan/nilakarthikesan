@@ -10,6 +10,7 @@ I'm interested in the safety and reliability of AI systems. My work at Georgia T
 
 - [SafeLattice](https://github.com/nilakarthikesan/claw-eval-safelattice): Information-flow scoring for language model agent traces, developed as an extension of Claw-Eval.
 - [Never Trust the Context](https://github.com/nilakarthikesan/never-trust-the-context): A policy prototype for controlling how language model agents use untrusted context, with offline evaluation fixtures and regression tests.
+- [Grasp Recovery under Delayed Feedback](https://github.com/nilakarthikesan/grasp-recovery-under-delayed-feedback): Research protocol for measuring intervention value under stale observations, response delay, and hidden mass/friction variation. Implementation and experiments are pending.
 - [Grasp Failure and Recovery](https://github.com/nilakarthikesan/grasp-failure-recovery): MuJoCo grasping infrastructure and HUG integration diagnostics. Failure prediction and recovery experiments under changing mass and friction are in development.
 - [LeRobot Behavior Cloning Evaluation](https://github.com/nilakarthikesan/lerobot-bc-eval): ACT and Diffusion Policy training, checkpoint comparisons, and simulation evaluation.
 - [GTSfM Visualization](https://github.com/nilakarthikesan/visualization-gtsfm-paper): Interactive 3D reconstruction visualization, including hierarchical merge playback.
