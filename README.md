@@ -1,61 +1,26 @@
-# Hi there, I'm Nila! 👋
+# Nila Karthikesan
 
-I'm a **Software Engineer & Full-Stack Developer**  
-Graduated in May 2024 from **University of Maryland** 🎓  
-Currently based in **New York City** 🗽
+I'm a security engineer at Pinterest and a computer science master's student at Georgia Tech.
 
-## 💻 About Me
-- 🔹 Passionate about software development  
-- 🔹 Experienced in **Python, SQL, and Full-Stack Dev**  
+At Pinterest, I work on cloud governance, Terraform automation, employee access tooling, and centralized audit logging across AWS and GCP. I collaborate with vendors and internal engineering teams to integrate security tooling and roll out infrastructure security controls.
 
-## 🚀 My Projects
+My earlier experience includes infrastructure APIs and data pipelines at GEICO, and CLIP-based content moderation and retrieval at Comcast.
 
-### [Stock Analyzer](https://github.com/nilakarthikesan/StockAnalyzer)  
-📊 **Automated Stock Data Insights & Portfolio Optimization**  
-- Fetches real-time stock data using **Yahoo Finance API**  
-- Calculates **P/E Ratio, EPS, and other key performance indicators (KPIs)**  
-- **Optimizes portfolio allocations** using **Modern Portfolio Theory (MPT)**  
-- Built with **Python, Pandas, Matplotlib, and SciPy Optimization**
+I'm interested in the safety and reliability of AI systems, with research experience in agent evaluation and robotics. My work on language model agents has focused on untrusted context and information flow.
 
-### [Job Board App](https://github.com/nilakarthikesan/job-board-app)  
-🛠 **A Modern Job Board Application**  
-- Helps users find and apply for jobs with ease  
-- Built with **Next.js, TailwindCSS, and MongoDB** for a seamless experience
+## Selected projects
 
-### [CLIP-Based Content Moderation System](https://github.com/nilakarthikesan/clip-content-moderation)  
-🧠 **AI-Powered Inappropriate Content Detection**  
-- Uses **OpenAI’s CLIP model** to analyze video/image embeddings  
-- Compares against a list of flagged terms using **cosine similarity**  
-- Provides real-time warnings for inappropriate content  
-- Built with **Supabase, Python, and FastAPI**, integrated into a full-stack app
+- [SafeLattice](https://github.com/nilakarthikesan/claw-eval-safelattice): Information-flow scoring for language model agent traces, developed as an extension of Claw-Eval.
+- [Never Trust the Context](https://github.com/nilakarthikesan/never-trust-the-context): A policy prototype for controlling how language model agents use untrusted context, with offline evaluation fixtures and regression tests.
+- [Grasp Failure and Recovery](https://github.com/nilakarthikesan/grasp-failure-recovery): MuJoCo grasping infrastructure and HUG integration diagnostics. Failure prediction and recovery experiments under changing mass and friction are in development.
+- [LeRobot Behavior Cloning Evaluation](https://github.com/nilakarthikesan/lerobot-bc-eval): ACT and Diffusion Policy training, checkpoint comparisons, and simulation evaluation.
+- [GTSfM Visualization](https://github.com/nilakarthikesan/visualization-gtsfm-paper): Interactive 3D reconstruction visualization, including hierarchical merge playback.
+- [Franka IK and Viser](https://github.com/nilakarthikesan/franka-ik-viser): Damped least-squares inverse kinematics, joint-limit handling, and interactive visualization for a Franka arm.
 
-### [MyFitnessPal Clone & AI Meal Planner Agent](https://github.com/nilakarthikesan/fitness-meal-planner)  
-🍽 **Macro Tracking App + Smart Agent Meal Planning**  
-- Users can log meals, set macro goals, and track daily nutrition  
-- Backend: **FastAPI + Supabase**  
-- Frontend: **React, Recharts, Axios, React Router**  
-- Integrated AI agent to generate meal plans based on user preferences  
-- Modular architecture with secure **JWT-based authentication**
+## Publication
 
-## ‎‍💼 Work Experience  
+I coauthored *Hierarchical Structure-from-Motion Scales FeedForward Reconstruction*, presented at the [ECCV 2026 SfM-DL workshop](https://sfm-dl.fbk.eu/). My contribution focused on interactive reconstruction visualization and supporting software.
 
-🔧 **Software Engineer – GEICO**  
-- Automating internal tools to manage and track physical server data  
-- Building APIs to fetch and structure server data from **Cisco UCS & VMware**  
-- Tools: **Python, PostgreSQL, PowerBI**
+## Contact
 
-🧠 **AI Engineering Intern – Comcast**  
-- Built a full-stack content moderation tool using **OpenAI’s CLIP model**  
-- Developed microservices to analyze media files and return warnings in real-time  
-- Deployed services with **Docker**, used **MongoDB**, and integrated with a React dashboard  
-
-🔬 **Research Intern – Delaware INBRE**  
-- Worked on scientific computing pipelines and automation for biomedical data  
-- Applied **Python scripting and data cleaning** techniques to genomic datasets  
-- Presented findings to faculty and research sponsors
-
-## 📫 Connect with Me  
-🔗 [LinkedIn](https://www.linkedin.com/in/nila-karthikesan/)  
-
----
-⭐️ _Check out my GitHub repositories for more cool projects!_
+[LinkedIn](https://www.linkedin.com/in/nila-karthikesan/)
