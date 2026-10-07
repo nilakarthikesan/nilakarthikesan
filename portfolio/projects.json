@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "owner": "nilakarthikesan",
+  "baseline_date": "2026-10-07",
+  "baseline_known_public_repositories": [
+    {
+      "id": 1408858076,
+      "full_name": "nilakarthikesan/grasp-recovery-under-delayed-feedback",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1388194193,
+      "full_name": "nilakarthikesan/grasp-failure-recovery",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1372311782,
+      "full_name": "nilakarthikesan/never-trust-the-context",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1356402285,
+      "full_name": "nilakarthikesan/robot-learning-playground",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1315910215,
+      "full_name": "nilakarthikesan/franka-ik-viser",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1314578003,
+      "full_name": "nilakarthikesan/lerobot-bc-eval",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1291681415,
+      "full_name": "nilakarthikesan/claw-eval-safelattice",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1180457914,
+      "full_name": "nilakarthikesan/gtsfm",
+      "fork": true,
+      "archived": false
+    },
+    {
+      "id": 1175106671,
+      "full_name": "nilakarthikesan/resume",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1102686105,
+      "full_name": "nilakarthikesan/visualization-gtsfm-paper",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1094756987,
+      "full_name": "nilakarthikesan/gerrard-hall-v2",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1080951166,
+      "full_name": "nilakarthikesan/platonic-solids-demo",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1031106415,
+      "full_name": "nilakarthikesan/llm-seo-evaluator",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1029987798,
+      "full_name": "nilakarthikesan/Nila-portfolio",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1023321753,
+      "full_name": "nilakarthikesan/macro-tracking-app",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1017772616,
+      "full_name": "nilakarthikesan/clip-content-analyzer",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 931932868,
+      "full_name": "nilakarthikesan/job-board-app",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 931273778,
+      "full_name": "nilakarthikesan/nilakarthikesan",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 931259029,
+      "full_name": "nilakarthikesan/StockAnalyzer",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 576768710,
+      "full_name": "nilakarthikesan/fall2022",
+      "fork": true,
+      "archived": false
+    },
+    {
+      "id": 576755729,
+      "full_name": "nilakarthikesan/tennis_wta",
+      "fork": true,
+      "archived": false
+    },
+    {
+      "id": 450209015,
+      "full_name": "nilakarthikesan/competitions",
+      "fork": true,
+      "archived": false
+    },
+    {
+      "id": 449478511,
+      "full_name": "nilakarthikesan/nilakarthikesan.github.io",
+      "fork": true,
+      "archived": false
+    }
+  ],
+  "purpose": "Evidence-backed project facts and per-destination publication state. Scheduled reconciliation is configured separately; this file does not trigger synchronization.",
+  "targets": {
+    "github_profile": {
+      "repository": "nilakarthikesan/nilakarthikesan",
+      "path": "README.md",
+      "url": "https://github.com/nilakarthikesan"
+    },
+    "resume": {
+      "repository": "nilakarthikesan/resume",
+      "url": "https://github.com/nilakarthikesan/resume",
+      "public_pdf_path": "Resume_Official.pdf",
+      "editable_source_path": "resume.json",
+      "build_script_path": "build_resume.py"
+    },
+    "linkedin_projects": {
+      "profile_url": "https://www.linkedin.com/in/nila-karthikesan/",
+      "section": "Projects"
+    },
+    "linkedin_about": {
+      "profile_url": "https://www.linkedin.com/in/nila-karthikesan/",
+      "section": "About"
+    }
+  },
+  "projects": [
+    {
+      "repository_id": 1408858076,
+      "repository": "nilakarthikesan/grasp-recovery-under-delayed-feedback",
+      "url": "https://github.com/nilakarthikesan/grasp-recovery-under-delayed-feedback",
+      "title": "Grasp Recovery under Delayed Feedback",
+      "stage": "research_protocol",
+      "implementation_pending": true,
+      "experiments_pending": true,
+      "source_commit": "9f0a5b6cd49718960132941cc52cf1840095d9ae",
+      "evidence": [
+        {
+          "path": "docs/GRASP_RECOVERY_UNDER_DELAYED_FEEDBACK.md",
+          "commit": "9f0a5b6cd49718960132941cc52cf1840095d9ae",
+          "url": "https://github.com/nilakarthikesan/grasp-recovery-under-delayed-feedback/blob/9f0a5b6cd49718960132941cc52cf1840095d9ae/docs/GRASP_RECOVERY_UNDER_DELAYED_FEEDBACK.md",
+          "supports": "Research question, intervention comparisons, and proposed experimental protocol; no completed implementation or experimental results."
+        }
+      ],
+      "intended_descriptions": {
+        "github_profile": "Research protocol for measuring intervention value under stale observations, response delay, and hidden mass/friction variation. Implementation and experiments are pending.",
+        "linkedin_projects": "Designing an evaluation protocol for robotic grasp recovery when observations are stale and interventions are delayed. The proposed study compares continuation, slower transport, bounded grip adjustment, and support/regrasp from matched simulator states under hidden mass and friction variation.\n\nSpecified independent timing controls, episode-disjoint evaluation splits, persistent placement and object-preservation outcomes, and feedback ablations to measure intervention value. Current status: research protocol and prior-work analysis; implementation and experiments are pending.\n\nRepository: https://github.com/nilakarthikesan/grasp-recovery-under-delayed-feedback",
+        "linkedin_about": "I’m interested in the safety and reliability of AI systems, with research experience in agent evaluation and robotics. My current projects examine untrusted context and information flow in language model agents, and delayed feedback in robotic grasp recovery.",
+        "resume": "Specified a matched-state evaluation protocol comparing continued motion, slower transport, grip adjustment, and return to support under independently varied observation age and response delay. Defined hidden mass/friction holdouts and sensor-feedback controls to measure intervention value and test feedback dependence; implementation and results pending."
+      },
+      "target_status": {
+        "github_profile": {
+          "status": "verified",
+          "verified_commit": "a274d9920c74e6e3ff31ef25d070c32affc5ac5c",
+          "verified_on": "2026-10-07"
+        },
+        "resume": {
+          "status": "verified",
+          "verified_commit": "05e8b16d0181907faa8a4f6a1795f02beb6496bb",
+          "verified_on": "2026-10-07"
+        },
+        "linkedin_projects": {
+          "status": "verified",
+          "verified_on": "2026-10-07",
+          "project_id": "380290280"
+        },
+        "linkedin_about": {
+          "status": "verified",
+          "verified_on": "2026-10-07"
+        }
+      }
+    }
+  ],
+  "reconciliation_rules": {
+    "new_project_eligibility": {
+      "owner_must_match": "nilakarthikesan",
+      "visibility": "public",
+      "must_be_original": true,
+      "must_have_substantive_project_artifacts": true,
+      "exclude_forks": true,
+      "exclude_archived_repositories": true,
+      "exclude_administrative_and_infrastructure_repositories": true,
+      "exclude_known_baseline_repositories_from_automatic_retroactive_additions": true,
+      "allow_explicitly_registered_projects_from_baseline": true
+    },
+    "stable_identity_key": "repository_id",
+    "deduplication": "Match stable repository IDs before titles or URLs. Preserve identity across repository renames and update the canonical URL.",
+    "progress": "Reconcile new substantive projects and verified changes in project stage, implementation, experiments, or publication. Routine commits alone do not justify profile changes.",
+    "evidence": "Use versioned documentation, implementation, and actual saved experimental artifacts. Keep planned work separate from implemented capabilities and measured results. Never invent outcomes or infer successful experiments from passing implementation checks.",
+    "preservation": "Preserve existing profile and resume sections, industry experience, education, publication credit, upstream attribution, and unrelated projects. Do not replace targeted resume variants.",
+    "linkedin_about": "Keep About concise and preserve the existing professional introduction. Update a short research sentence only when project evidence materially changes the summary; list project detail in Projects.",
+    "per_target_state": "Track and verify GitHub, resume, LinkedIn Projects, and LinkedIn About independently. Mark a target verified only after checking the persisted content; retry failures without duplicating already-published entries.",
+    "unattended_scope": "Update authorized portfolio surfaces only. Do not send messages, publish social posts, broaden credential permissions, or change repository visibility.",
+    "notifications": "Stay quiet for unchanged or non-actionable state. Notify only after meaningful verified updates, a failure, or required user action."
+  },
+  "synchronization": {
+    "mechanism": "Codex thread heartbeat",
+    "name": "Keep portfolio projects current",
+    "status": "active",
+    "cadence": "daily",
+    "requires": "Codex running, authenticated GitHub tooling, and a signed-in browser for LinkedIn"
+  }
+}
