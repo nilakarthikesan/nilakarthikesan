@@ -174,7 +174,7 @@
       "stage": "research_protocol",
       "implementation_pending": true,
       "experiments_pending": true,
-      "source_commit": "9f0a5b6cd49718960132941cc52cf1840095d9ae",
+      "source_commit": "cdbf08e8d6fda554e6ba1e913ee2e101b26096cc",
       "evidence": [
         {
           "path": "docs/GRASP_RECOVERY_UNDER_DELAYED_FEEDBACK.md",
@@ -209,7 +209,9 @@
           "status": "verified",
           "verified_on": "2026-10-07"
         }
-      }
+      },
+      "last_reviewed_on": "2026-10-08",
+      "last_review_notes": "README wording change only; research protocol, implementation, and experiment status unchanged. No public listing changes required."
     }
   ],
   "reconciliation_rules": {
