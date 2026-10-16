@@ -163,6 +163,10 @@
     "linkedin_about": {
       "profile_url": "https://www.linkedin.com/in/nila-karthikesan/",
       "section": "About"
+    },
+    "repository_about": {
+      "repository": "nilakarthikesan/grasp-recovery-under-delayed-feedback",
+      "field": "description"
     }
   },
   "projects": [
@@ -171,47 +175,86 @@
       "repository": "nilakarthikesan/grasp-recovery-under-delayed-feedback",
       "url": "https://github.com/nilakarthikesan/grasp-recovery-under-delayed-feedback",
       "title": "Grasp Recovery under Delayed Feedback",
-      "stage": "research_protocol",
-      "implementation_pending": true,
-      "experiments_pending": true,
-      "source_commit": "cdbf08e8d6fda554e6ba1e913ee2e101b26096cc",
+      "stage": "simulation_pilot",
+      "implementation_pending": false,
+      "experiments_pending": false,
+      "source_commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0",
       "evidence": [
         {
           "path": "docs/GRASP_RECOVERY_UNDER_DELAYED_FEEDBACK.md",
           "commit": "9f0a5b6cd49718960132941cc52cf1840095d9ae",
           "url": "https://github.com/nilakarthikesan/grasp-recovery-under-delayed-feedback/blob/9f0a5b6cd49718960132941cc52cf1840095d9ae/docs/GRASP_RECOVERY_UNDER_DELAYED_FEEDBACK.md",
           "supports": "Research question, intervention comparisons, and proposed experimental protocol; no completed implementation or experimental results."
+        },
+        {
+          "path": "docs/SYSTEM_DESIGN.md",
+          "commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0",
+          "url": "https://github.com/nilakarthikesan/grasp-recovery-under-delayed-feedback/blob/54aa4b1c6c3e7c0aba5de881ea3025954090e6a0/docs/SYSTEM_DESIGN.md",
+          "supports": "Implemented task, supervisor inputs, evaluation contract, and simulation limits."
+        },
+        {
+          "path": "results/pilot_v1/report.json",
+          "commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0",
+          "url": "https://github.com/nilakarthikesan/grasp-recovery-under-delayed-feedback/blob/54aa4b1c6c3e7c0aba5de881ea3025954090e6a0/results/pilot_v1/report.json",
+          "supports": "400 episodes, 7394 decision states, 88728 branches, 94 held-out test episodes; preliminary simulation results."
+        },
+        {
+          "path": "results/pilot_v1/episode_cell_outcomes.csv",
+          "commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0",
+          "url": "https://github.com/nilakarthikesan/grasp-recovery-under-delayed-feedback/blob/54aa4b1c6c3e7c0aba5de881ea3025954090e6a0/results/pilot_v1/episode_cell_outcomes.csv",
+          "supports": "Released per-episode outcomes; key completion comparisons independently recomputed during sync."
+        },
+        {
+          "path": "results/pilot_v1/lookup_verification.json",
+          "commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0",
+          "url": "https://github.com/nilakarthikesan/grasp-recovery-under-delayed-feedback/blob/54aa4b1c6c3e7c0aba5de881ea3025954090e6a0/results/pilot_v1/lookup_verification.json",
+          "supports": "Saved 60 live re-simulation checks with zero lookup mismatches."
         }
       ],
       "intended_descriptions": {
-        "github_profile": "Research protocol for measuring intervention value under stale observations, response delay, and hidden mass/friction variation. Implementation and experiments are pending.",
-        "linkedin_projects": "Designing an evaluation protocol for robotic grasp recovery when observations are stale and interventions are delayed. The proposed study compares continuation, slower transport, bounded grip adjustment, and support/regrasp from matched simulator states under hidden mass and friction variation.\n\nSpecified independent timing controls, episode-disjoint evaluation splits, persistent placement and object-preservation outcomes, and feedback ablations to measure intervention value. Current status: research protocol and prior-work analysis; implementation and experiments are pending.\n\nRepository: https://github.com/nilakarthikesan/grasp-recovery-under-delayed-feedback",
+        "github_profile": "Implemented a MuJoCo evaluation of grasp-recovery interventions under stale observations and response delay, with 400 pilot episodes and 88,728 matched branches. Preliminary simulation results show no completion advantage from latency-aware remedy selection over the latency-agnostic baseline.",
+        "linkedin_projects": "Implemented a standalone MuJoCo grasp-transport-place study of recovery decisions under stale observations, response delay, and hidden mass/friction variation. Collected 400 pilot episodes, 7,394 decision states, and 88,728 matched simulator branches for slowing transport, bounded grip adjustment, and support/regrasp.\n\nEvaluated reactive, future-loss, and remedy-value supervisors on 94 held-out parent episodes across 12 observation-age/response-delay cells, with feedback-null controls and episode-clustered bootstrap intervals. Saved lookup verification reports 60/60 matches against live re-simulation.\n\nLatency awareness changed intervention timing and remedy choice but showed no completion advantage over the latency-agnostic selector: -0.4 percentage points, 95% CI [-1.8, +0.8]. Preliminary results from one object geometry and one simulator; no hardware validation.\n\nRepository: https://github.com/nilakarthikesan/grasp-recovery-under-delayed-feedback",
         "linkedin_about": "I’m interested in the safety and reliability of AI systems, with research experience in agent evaluation and robotics. My current projects examine untrusted context and information flow in language model agents, and delayed feedback in robotic grasp recovery.",
-        "resume": "Specified a matched-state evaluation protocol comparing continued motion, slower transport, grip adjustment, and return to support under independently varied observation age and response delay. Defined hidden mass/friction holdouts and sensor-feedback controls to measure intervention value and test feedback dependence; implementation and results pending."
+        "resume": "Built a standalone MuJoCo grasp-transport-place task with bit-exact replay; collected 400 pilot episodes and 88,728 matched recovery branches under hidden mass/friction and independently varied observation age and response delay. Evaluated recovery selectors on 94 held-out episodes with episode-clustered bootstrap intervals; latency-aware selection showed no completion advantage over its latency-agnostic baseline. Preliminary, simulation-only results.",
+        "repository_about": "MuJoCo grasp-recovery study: stale observations, response delay, matched intervention branches, and a reproducible 400-episode pilot (simulation only)."
       },
       "target_status": {
         "github_profile": {
           "status": "verified",
-          "verified_commit": "a274d9920c74e6e3ff31ef25d070c32affc5ac5c",
-          "verified_on": "2026-10-07"
+          "verified_commit": "6cfb5a29b06d10a5e10469c59155a00c93671f84",
+          "verified_on": "2026-10-16",
+          "source_commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0"
         },
         "resume": {
           "status": "verified",
-          "verified_commit": "05e8b16d0181907faa8a4f6a1795f02beb6496bb",
-          "verified_on": "2026-10-07"
+          "verified_commit": "0a6b1611f9413fed827d555489eca47c63cc2372",
+          "verified_on": "2026-10-16",
+          "source_commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0",
+          "pdf_blob_sha": "3e9fa414a3bdb98bb112578c719b31f9c4545a75"
         },
         "linkedin_projects": {
-          "status": "verified",
+          "status": "pending_access",
           "verified_on": "2026-10-07",
-          "project_id": "380290280"
+          "project_id": "380290280",
+          "attempted_on": "2026-10-16",
+          "pending_source_commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0",
+          "pending_reason": "Chrome reached the LinkedIn sign-in screen; no authenticated editing session. Existing project ID preserved for an update without duplication."
         },
         "linkedin_about": {
           "status": "verified",
           "verified_on": "2026-10-07"
+        },
+        "repository_about": {
+          "status": "verified",
+          "verified_on": "2026-10-16",
+          "source_commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0"
         }
       },
-      "last_reviewed_on": "2026-10-08",
-      "last_review_notes": "README wording change only; research protocol, implementation, and experiment status unchanged. No public listing changes required."
+      "last_reviewed_on": "2026-10-16",
+      "last_review_notes": "Implemented MuJoCo pilot and released data inspected; two key episode-clustered completion comparisons recomputed from the per-episode CSV. GitHub and resume updated. LinkedIn project update pending signed-in browser access; About research sentence remains applicable and was not changed.",
+      "pilot_completed": true,
+      "additional_experiments_pending": true,
+      "hardware_validation_pending": true
     }
   ],
   "reconciliation_rules": {
