@@ -233,16 +233,18 @@
           "pdf_blob_sha": "3e9fa414a3bdb98bb112578c719b31f9c4545a75"
         },
         "linkedin_projects": {
-          "status": "pending_access",
-          "verified_on": "2026-10-07",
+          "status": "verified",
+          "verified_on": "2026-10-17",
           "project_id": "380290280",
-          "attempted_on": "2026-10-16",
-          "pending_source_commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0",
-          "pending_reason": "Chrome reached the LinkedIn sign-in screen; no authenticated editing session. Existing project ID preserved for an update without duplication."
+          "source_commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0",
+          "media_title": "Grasp Recovery under Delayed Feedback — MuJoCo Pilot",
+          "media_description": "Implemented MuJoCo evaluation with 400 pilot episodes and 88,728 matched recovery branches. Preliminary, simulation-only results; released code and per-episode outcomes."
         },
         "linkedin_about": {
           "status": "verified",
-          "verified_on": "2026-10-07"
+          "verified_on": "2026-10-17",
+          "source_commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0",
+          "note": "Existing concise research paragraph remains accurate; no edit needed."
         },
         "repository_about": {
           "status": "verified",
@@ -250,8 +252,8 @@
           "source_commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0"
         }
       },
-      "last_reviewed_on": "2026-10-16",
-      "last_review_notes": "Implemented MuJoCo pilot and released data inspected; two key episode-clustered completion comparisons recomputed from the per-episode CSV. GitHub and resume updated. LinkedIn project update pending signed-in browser access; About research sentence remains applicable and was not changed.",
+      "last_reviewed_on": "2026-10-17",
+      "last_review_notes": "No new repositories or source changes. Pending LinkedIn project description and media caption updated in the existing project, then verified on the saved profile. About research paragraph remains accurate. GitHub description/profile and published resume PDF remain current; no further content changes needed.",
       "pilot_completed": true,
       "additional_experiments_pending": true,
       "hardware_validation_pending": true
