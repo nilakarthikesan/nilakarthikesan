@@ -140,6 +140,30 @@
       "full_name": "nilakarthikesan/nilakarthikesan.github.io",
       "fork": true,
       "archived": false
+    },
+    {
+      "id": 1424080205,
+      "full_name": "nilakarthikesan/health-context-lab",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1424080059,
+      "full_name": "nilakarthikesan/culture-data-lab",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1424079920,
+      "full_name": "nilakarthikesan/chip-memory-lab",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "id": 1424079682,
+      "full_name": "nilakarthikesan/narrative-context-lab",
+      "fork": false,
+      "archived": false
     }
   ],
   "purpose": "Evidence-backed project facts and per-destination publication state. Scheduled reconciliation is configured separately; this file does not trigger synchronization.",
@@ -165,7 +189,7 @@
       "section": "About"
     },
     "repository_about": {
-      "repository": "nilakarthikesan/grasp-recovery-under-delayed-feedback",
+      "repository_from": "projects[].repository",
       "field": "description"
     }
   },
@@ -214,8 +238,8 @@
       "intended_descriptions": {
         "github_profile": "Implemented a MuJoCo evaluation of grasp-recovery interventions under stale observations and response delay, with 400 pilot episodes and 88,728 matched branches. Preliminary simulation results show no completion advantage from latency-aware remedy selection over the latency-agnostic baseline.",
         "linkedin_projects": "Implemented a standalone MuJoCo grasp-transport-place study of recovery decisions under stale observations, response delay, and hidden mass/friction variation. Collected 400 pilot episodes, 7,394 decision states, and 88,728 matched simulator branches for slowing transport, bounded grip adjustment, and support/regrasp.\n\nEvaluated reactive, future-loss, and remedy-value supervisors on 94 held-out parent episodes across 12 observation-age/response-delay cells, with feedback-null controls and episode-clustered bootstrap intervals. Saved lookup verification reports 60/60 matches against live re-simulation.\n\nLatency awareness changed intervention timing and remedy choice but showed no completion advantage over the latency-agnostic selector: -0.4 percentage points, 95% CI [-1.8, +0.8]. Preliminary results from one object geometry and one simulator; no hardware validation.\n\nRepository: https://github.com/nilakarthikesan/grasp-recovery-under-delayed-feedback",
-        "linkedin_about": "I’m interested in the safety and reliability of AI systems, with research experience in agent evaluation and robotics. My current projects examine untrusted context and information flow in language model agents, and delayed feedback in robotic grasp recovery.",
-        "resume": "Built a standalone MuJoCo grasp-transport-place task with bit-exact replay; collected 400 pilot episodes and 88,728 matched recovery branches under hidden mass/friction and independently varied observation age and response delay. Evaluated recovery selectors on 94 held-out episodes with episode-clustered bootstrap intervals; latency-aware selection showed no completion advantage over its latency-agnostic baseline. Preliminary, simulation-only results.",
+        "linkedin_about": "I’m interested in the safety and reliability of AI systems, with research experience in agent evaluation and robotics. My current projects examine untrusted context and information flow in language model agents, including paired tests of decision correctness and evidence grounding, alongside delayed-feedback evaluation in robotic grasp recovery.",
+        "resume": "Built a grasp-transport-place task with bit-exact replay; collected <b>400 pilot episodes</b> and <b>88,728 matched recovery branches</b> under hidden mass/friction and varied observation age and response delay. Evaluated selectors on <b>94 held-out episodes</b> with episode-clustered bootstrap intervals; latency-aware selection showed no completion advantage over its latency-agnostic baseline. Preliminary, simulation-only.",
         "repository_about": "MuJoCo grasp-recovery study: stale observations, response delay, matched intervention branches, and a reproducible 400-episode pilot (simulation only)."
       },
       "target_status": {
@@ -227,10 +251,12 @@
         },
         "resume": {
           "status": "verified",
-          "verified_commit": "0a6b1611f9413fed827d555489eca47c63cc2372",
-          "verified_on": "2026-10-16",
+          "verified_on": "2026-10-19",
+          "verified_commit": "14d483a6a39e4178202cdafe67f1a38a55206219",
+          "verified_source_blob_sha": "ac26285df9133927cbc90093c897ed20bd33b058",
           "source_commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0",
-          "pdf_blob_sha": "3e9fa414a3bdb98bb112578c719b31f9c4545a75"
+          "pdf_blob_sha": "fec27b4826a06eaf7141a95a70d7391865d17628",
+          "verification_scope": "Existing source entry checked against unchanged simulation evidence; existing published PDF blob observed. No rebuild or visual reinspection performed in this run; user-curated layout preserved."
         },
         "linkedin_projects": {
           "status": "verified",
@@ -242,9 +268,8 @@
         },
         "linkedin_about": {
           "status": "verified",
-          "verified_on": "2026-10-17",
-          "source_commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0",
-          "note": "Existing concise research paragraph remains accurate; no edit needed."
+          "verified_on": "2026-10-19",
+          "note": "Current user-authored research paragraph is accurate and preserved."
         },
         "repository_about": {
           "status": "verified",
@@ -252,11 +277,251 @@
           "source_commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0"
         }
       },
-      "last_reviewed_on": "2026-10-17",
-      "last_review_notes": "No new repositories or source changes. Pending LinkedIn project description and media caption updated in the existing project, then verified on the saved profile. About research paragraph remains accurate. GitHub description/profile and published resume PDF remain current; no further content changes needed.",
+      "last_reviewed_on": "2026-10-19",
+      "last_review_notes": "Research source unchanged. Existing user-curated GitHub, LinkedIn, and resume descriptions remain accurate; preserved.",
       "pilot_completed": true,
       "additional_experiments_pending": true,
       "hardware_validation_pending": true
+    },
+    {
+      "repository_id": 1424080205,
+      "repository": "nilakarthikesan/health-context-lab",
+      "url": "https://github.com/nilakarthikesan/health-context-lab",
+      "title": "Health Context Lab",
+      "stage": "exploratory_prototype",
+      "implementation_pending": false,
+      "experiments_pending": true,
+      "real_model_or_domain_validation_pending": true,
+      "source_commit": "d1213036c6623f0eaddf2dafb591a5a1ecf12acf",
+      "last_reviewed_on": "2026-10-19",
+      "evidence": [
+        {
+          "path": "README.md",
+          "commit": "d1213036c6623f0eaddf2dafb591a5a1ecf12acf",
+          "url": "https://github.com/nilakarthikesan/health-context-lab/blob/d1213036c6623f0eaddf2dafb591a5a1ecf12acf/README.md",
+          "supports": "Implemented synthetic prototype, data contract, demonstration scope, and explicit limitations."
+        }
+      ],
+      "validation": {
+        "tests_passed": 22,
+        "checked_on": "2026-10-18",
+        "scope": "Software checks and synthetic/toy demonstrations only; no real-model, population, clinical, or hardware performance inference."
+      },
+      "intended_descriptions": {
+        "github_profile": "Synthetic research-record corrections, unresolved evidence and action authorization; domain review pending.",
+        "linkedin_projects": "Built a Python resolver, prompt exporter, and scorer for 14 synthetic research-record development cases covering corrected metadata, provenance, quantity/unit pairs, unresolved conflicts, and explicit action grants. Includes deterministic baselines and 22 tests.\n\nThese are public specification examples, not a held-out language-model benchmark. Domain review and real-model evaluation are pending; no clinical validity or deployment readiness is claimed.\n\nRepository: https://github.com/nilakarthikesan/health-context-lab",
+        "linkedin_about": "An exploratory research workbench covers accelerator memory, annotation disagreement, narrative framing, and synthetic record reconciliation. These are early prototypes; broader model and human evaluation remain future work.",
+        "repository_about": "Original synthetic research-record provenance, correction and action-authorization evaluation; domain review pending, no clinical claims."
+      },
+      "target_status": {
+        "github_profile": {
+          "status": "verified",
+          "verified_on": "2026-10-18",
+          "verified_blob_sha": "a9726373943662cf568be1599e976aa30730d455",
+          "note": "Existing accurate exploratory-workbench listing preserved."
+        },
+        "repository_about": {
+          "status": "verified",
+          "verified_on": "2026-10-18",
+          "note": "Existing accurate repository description preserved."
+        },
+        "linkedin_projects": {
+          "status": "verified",
+          "verified_on": "2026-10-19",
+          "source_commit": "d1213036c6623f0eaddf2dafb591a5a1ecf12acf",
+          "project_id": "1367146983"
+        },
+        "linkedin_about": {
+          "status": "verified",
+          "verified_on": "2026-10-18",
+          "note": "Existing exploratory-workbench paragraph accurately covers this prototype; preserved."
+        },
+        "resume": {
+          "status": "pending_user_choice",
+          "requested_on": "2026-10-18",
+          "reason": "Awaiting whether to retain the curated one-page selection, expand to two pages, or replace named existing entries. Preserve current SafeLattice, Never Trust the Context, grasp recovery, and GTSfM entries until the user chooses."
+        }
+      }
+    },
+    {
+      "repository_id": 1424080059,
+      "repository": "nilakarthikesan/culture-data-lab",
+      "url": "https://github.com/nilakarthikesan/culture-data-lab",
+      "title": "Culture Data Lab",
+      "stage": "exploratory_prototype",
+      "implementation_pending": false,
+      "experiments_pending": true,
+      "real_model_or_domain_validation_pending": true,
+      "source_commit": "b6f8acce2426f24758dc6a4c8bad78cf9048833c",
+      "last_reviewed_on": "2026-10-19",
+      "evidence": [
+        {
+          "path": "README.md",
+          "commit": "b6f8acce2426f24758dc6a4c8bad78cf9048833c",
+          "url": "https://github.com/nilakarthikesan/culture-data-lab/blob/b6f8acce2426f24758dc6a4c8bad78cf9048833c/README.md",
+          "supports": "Implemented synthetic prototype, data contract, demonstration scope, and explicit limitations."
+        }
+      ],
+      "validation": {
+        "tests_passed": 8,
+        "checked_on": "2026-10-18",
+        "scope": "Software checks and synthetic/toy demonstrations only; no real-model, population, clinical, or hardware performance inference."
+      },
+      "intended_descriptions": {
+        "github_profile": "Annotation disagreement and chronological forecast baselines for synthetic creative-content feedback.",
+        "linkedin_projects": "Built Python tooling that preserves per-item annotation distributions, plurality ties, entropy, and pairwise agreement, with five chronological forecast baselines. The synthetic demo contains 960 annotations on 240 items across 12 weekly batches and excludes late-available annotations from training. Eight tests check the data and timing contract.\n\nExploratory prototype only: no real participant study, population-level cultural inference, or learned-model result. Independent panel evaluation remains future work.\n\nRepository: https://github.com/nilakarthikesan/culture-data-lab",
+        "linkedin_about": "An exploratory research workbench covers accelerator memory, annotation disagreement, narrative framing, and synthetic record reconciliation. These are early prototypes; broader model and human evaluation remain future work.",
+        "repository_about": "Synthetic annotation disagreement and time-respecting forecast baselines for creative-content research; exploratory and not population-representative."
+      },
+      "target_status": {
+        "github_profile": {
+          "status": "verified",
+          "verified_on": "2026-10-18",
+          "verified_blob_sha": "a9726373943662cf568be1599e976aa30730d455",
+          "note": "Existing accurate exploratory-workbench listing preserved."
+        },
+        "repository_about": {
+          "status": "verified",
+          "verified_on": "2026-10-18",
+          "note": "Existing accurate repository description preserved."
+        },
+        "linkedin_projects": {
+          "status": "verified",
+          "verified_on": "2026-10-19",
+          "source_commit": "b6f8acce2426f24758dc6a4c8bad78cf9048833c",
+          "project_id": "1389578856"
+        },
+        "linkedin_about": {
+          "status": "verified",
+          "verified_on": "2026-10-18",
+          "note": "Existing exploratory-workbench paragraph accurately covers this prototype; preserved."
+        },
+        "resume": {
+          "status": "pending_user_choice",
+          "requested_on": "2026-10-18",
+          "reason": "Awaiting whether to retain the curated one-page selection, expand to two pages, or replace named existing entries. Preserve current SafeLattice, Never Trust the Context, grasp recovery, and GTSfM entries until the user chooses."
+        }
+      }
+    },
+    {
+      "repository_id": 1424079920,
+      "repository": "nilakarthikesan/chip-memory-lab",
+      "url": "https://github.com/nilakarthikesan/chip-memory-lab",
+      "title": "Chip Memory Lab",
+      "stage": "exploratory_prototype",
+      "implementation_pending": false,
+      "experiments_pending": true,
+      "real_model_or_domain_validation_pending": true,
+      "source_commit": "01561c2b2e49a579e56da988abf89f4b1607146d",
+      "last_reviewed_on": "2026-10-19",
+      "evidence": [
+        {
+          "path": "README.md",
+          "commit": "01561c2b2e49a579e56da988abf89f4b1607146d",
+          "url": "https://github.com/nilakarthikesan/chip-memory-lab/blob/01561c2b2e49a579e56da988abf89f4b1607146d/README.md",
+          "supports": "Implemented synthetic prototype, data contract, demonstration scope, and explicit limitations."
+        }
+      ],
+      "validation": {
+        "tests_passed": 15,
+        "checked_on": "2026-10-18",
+        "scope": "Software checks and synthetic/toy demonstrations only; no real-model, population, clinical, or hardware performance inference."
+      },
+      "intended_descriptions": {
+        "github_profile": "Prefix-cache experiments, capacity accounting and analytic data-movement scenarios, with a CPU toy-attention correctness check.",
+        "linkedin_projects": "Implemented whole-prefix cache experiments with explicit active-context capacity accounting, no-retention/LRU/FIFO/future-aware comparators, synthetic traces, and five hypothetical architecture profiles. Added a CPU toy attention reuse check (20 trials with matching outputs) and 15 tests.\n\nArchitecture comparisons use analytic operation/data-movement proxies, not measured GPU runtime or hardware speedups. Real serving-engine and workload validation remain future work; no AGI-specific chip requirement is established.\n\nRepository: https://github.com/nilakarthikesan/chip-memory-lab",
+        "linkedin_about": "An exploratory research workbench covers accelerator memory, annotation disagreement, narrative framing, and synthetic record reconciliation. These are early prototypes; broader model and human evaluation remain future work.",
+        "repository_about": "Synthetic prefix-cache and memory data-movement experiments with CPU toy correctness checks; analytic scenarios, not hardware benchmarks."
+      },
+      "target_status": {
+        "github_profile": {
+          "status": "verified",
+          "verified_on": "2026-10-18",
+          "verified_blob_sha": "a9726373943662cf568be1599e976aa30730d455",
+          "note": "Existing accurate exploratory-workbench listing preserved."
+        },
+        "repository_about": {
+          "status": "verified",
+          "verified_on": "2026-10-18",
+          "note": "Existing accurate repository description preserved."
+        },
+        "linkedin_projects": {
+          "status": "verified",
+          "verified_on": "2026-10-19",
+          "source_commit": "01561c2b2e49a579e56da988abf89f4b1607146d",
+          "project_id": "1389615117"
+        },
+        "linkedin_about": {
+          "status": "verified",
+          "verified_on": "2026-10-18",
+          "note": "Existing exploratory-workbench paragraph accurately covers this prototype; preserved."
+        },
+        "resume": {
+          "status": "pending_user_choice",
+          "requested_on": "2026-10-18",
+          "reason": "Awaiting whether to retain the curated one-page selection, expand to two pages, or replace named existing entries. Preserve current SafeLattice, Never Trust the Context, grasp recovery, and GTSfM entries until the user chooses."
+        }
+      }
+    },
+    {
+      "repository_id": 1424079682,
+      "repository": "nilakarthikesan/narrative-context-lab",
+      "url": "https://github.com/nilakarthikesan/narrative-context-lab",
+      "title": "Narrative Context Lab",
+      "stage": "exploratory_prototype",
+      "implementation_pending": false,
+      "experiments_pending": true,
+      "real_model_or_domain_validation_pending": true,
+      "source_commit": "e686c051854524cc75d286459f63eae08fac68e8",
+      "last_reviewed_on": "2026-10-19",
+      "evidence": [
+        {
+          "path": "README.md",
+          "commit": "e686c051854524cc75d286459f63eae08fac68e8",
+          "url": "https://github.com/nilakarthikesan/narrative-context-lab/blob/e686c051854524cc75d286459f63eae08fac68e8/README.md",
+          "supports": "Implemented synthetic prototype, data contract, demonstration scope, and explicit limitations."
+        }
+      ],
+      "validation": {
+        "tests_passed": 9,
+        "checked_on": "2026-10-18",
+        "scope": "Software checks and synthetic/toy demonstrations only; no real-model, population, clinical, or hardware performance inference."
+      },
+      "intended_descriptions": {
+        "github_profile": "Controlled original stories testing framing sensitivity, explicit-rule compliance and evidence provenance.",
+        "linkedin_projects": "Implemented an original 96-scenario synthetic evaluation seed separating explicit fictional-rule permissions from physical gate state, while varying narrator praise/blame and evidence completeness. Exports prompts separately from answer keys and scores coverage, framing flips, and citation source validity; includes a reference engine, a planted-shortcut baseline, and nine tests.\n\nThe correlated fixture variants check the scoring pipeline. No deployed language-model performance, broad causal-reasoning ability, human moral consensus, or consciousness result is claimed.\n\nRepository: https://github.com/nilakarthikesan/narrative-context-lab",
+        "linkedin_about": "An exploratory research workbench covers accelerator memory, annotation disagreement, narrative framing, and synthetic record reconciliation. These are early prototypes; broader model and human evaluation remain future work.",
+        "repository_about": "CPU-only synthetic evaluation of framing, evidence provenance, and policy/state consistency."
+      },
+      "target_status": {
+        "github_profile": {
+          "status": "verified",
+          "verified_on": "2026-10-18",
+          "verified_blob_sha": "a9726373943662cf568be1599e976aa30730d455",
+          "note": "Existing accurate exploratory-workbench listing preserved."
+        },
+        "repository_about": {
+          "status": "verified",
+          "verified_on": "2026-10-18",
+          "note": "Existing accurate repository description preserved."
+        },
+        "linkedin_projects": {
+          "status": "verified",
+          "verified_on": "2026-10-19",
+          "source_commit": "e686c051854524cc75d286459f63eae08fac68e8",
+          "project_id": "1389646165"
+        },
+        "linkedin_about": {
+          "status": "verified",
+          "verified_on": "2026-10-18",
+          "note": "Existing exploratory-workbench paragraph accurately covers this prototype; preserved."
+        },
+        "resume": {
+          "status": "pending_user_choice",
+          "requested_on": "2026-10-18",
+          "reason": "Awaiting whether to retain the curated one-page selection, expand to two pages, or replace named existing entries. Preserve current SafeLattice, Never Trust the Context, grasp recovery, and GTSfM entries until the user chooses."
+        }
+      }
     }
   ],
   "reconciliation_rules": {
@@ -287,5 +552,17 @@
     "status": "active",
     "cadence": "daily",
     "requires": "Codex running, authenticated GitHub tooling, and a signed-in browser for LinkedIn"
+  },
+  "resume_selection_question": {
+    "status": "awaiting_user",
+    "asked_on": "2026-10-18",
+    "current_resume_commit": "14d483a6a39e4178202cdafe67f1a38a55206219",
+    "options": [
+      "Retain the current one-page selection",
+      "Expand to two pages; add all four labs",
+      "Replace entries the user specifies"
+    ],
+    "supersedes": "Earlier question mentioned obsolete CLIP/SEO entries; use this current selection.",
+    "repeat_question_policy": "Do not repeat this question while awaiting the user; continue independent synchronization without changing resume selection."
   }
 }
