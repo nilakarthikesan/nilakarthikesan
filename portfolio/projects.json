@@ -238,7 +238,7 @@
       "intended_descriptions": {
         "github_profile": "Implemented a MuJoCo evaluation of grasp-recovery interventions under stale observations and response delay, with 400 pilot episodes and 88,728 matched branches. Preliminary simulation results show no completion advantage from latency-aware remedy selection over the latency-agnostic baseline.",
         "linkedin_projects": "Implemented a standalone MuJoCo grasp-transport-place study of recovery decisions under stale observations, response delay, and hidden mass/friction variation. Collected 400 pilot episodes, 7,394 decision states, and 88,728 matched simulator branches for slowing transport, bounded grip adjustment, and support/regrasp.\n\nEvaluated reactive, future-loss, and remedy-value supervisors on 94 held-out parent episodes across 12 observation-age/response-delay cells, with feedback-null controls and episode-clustered bootstrap intervals. Saved lookup verification reports 60/60 matches against live re-simulation.\n\nLatency awareness changed intervention timing and remedy choice but showed no completion advantage over the latency-agnostic selector: -0.4 percentage points, 95% CI [-1.8, +0.8]. Preliminary results from one object geometry and one simulator; no hardware validation.\n\nRepository: https://github.com/nilakarthikesan/grasp-recovery-under-delayed-feedback",
-        "linkedin_about": "I’m interested in the safety and reliability of AI systems, with research experience in agent evaluation and robotics. My current projects examine untrusted context and information flow in language model agents, including paired tests of decision correctness and evidence grounding, alongside delayed-feedback evaluation in robotic grasp recovery.",
+        "linkedin_about": "I\u2019m interested in the safety and reliability of AI systems, with research experience in agent evaluation and robotics. My current projects examine untrusted context and information flow in language model agents, including paired tests of decision correctness and evidence grounding, alongside delayed-feedback evaluation in robotic grasp recovery.",
         "resume": "Built a grasp-transport-place task with bit-exact replay; collected <b>400 pilot episodes</b> and <b>88,728 matched recovery branches</b> under hidden mass/friction and varied observation age and response delay. Evaluated selectors on <b>94 held-out episodes</b> with episode-clustered bootstrap intervals; latency-aware selection showed no completion advantage over its latency-agnostic baseline. Preliminary, simulation-only.",
         "repository_about": "MuJoCo grasp-recovery study: stale observations, response delay, matched intervention branches, and a reproducible 400-episode pilot (simulation only)."
       },
@@ -263,7 +263,7 @@
           "verified_on": "2026-10-17",
           "project_id": "380290280",
           "source_commit": "54aa4b1c6c3e7c0aba5de881ea3025954090e6a0",
-          "media_title": "Grasp Recovery under Delayed Feedback — MuJoCo Pilot",
+          "media_title": "Grasp Recovery under Delayed Feedback \u2014 MuJoCo Pilot",
           "media_description": "Implemented MuJoCo evaluation with 400 pilot episodes and 88,728 matched recovery branches. Preliminary, simulation-only results; released code and per-episode outcomes."
         },
         "linkedin_about": {
@@ -412,14 +412,20 @@
       "implementation_pending": false,
       "experiments_pending": true,
       "real_model_or_domain_validation_pending": true,
-      "source_commit": "01561c2b2e49a579e56da988abf89f4b1607146d",
-      "last_reviewed_on": "2026-10-19",
+      "source_commit": "1dda5ead6ebbfd4fe955fe5a0e4e56b25df6f448",
+      "last_reviewed_on": "2026-10-20",
       "evidence": [
         {
           "path": "README.md",
           "commit": "01561c2b2e49a579e56da988abf89f4b1607146d",
           "url": "https://github.com/nilakarthikesan/chip-memory-lab/blob/01561c2b2e49a579e56da988abf89f4b1607146d/README.md",
           "supports": "Implemented synthetic prototype, data contract, demonstration scope, and explicit limitations."
+        },
+        {
+          "path": "docs/ssm-project-charter.md",
+          "commit": "1dda5ead6ebbfd4fe955fe5a0e4e56b25df6f448",
+          "url": "https://github.com/nilakarthikesan/chip-memory-lab/blob/1dda5ead6ebbfd4fe955fe5a0e4e56b25df6f448/docs/ssm-project-charter.md",
+          "supports": "Proposed recurrent-state reliability lane and decision gates only; no implementation or measured results."
         }
       ],
       "validation": {
@@ -461,7 +467,8 @@
           "requested_on": "2026-10-18",
           "reason": "Awaiting whether to retain the curated one-page selection, expand to two pages, or replace named existing entries. Preserve current SafeLattice, Never Trust the Context, grasp recovery, and GTSfM entries until the user chooses."
         }
-      }
+      },
+      "last_review_notes": "Documentation-only revision adds a proposed recurrent-state precision/constraint-retention study and chip-design reading map. No model instrumentation, experiment, hardware measurement, or collaboration completed. Existing implemented-prototype descriptions remain accurate; no destination changes warranted."
     },
     {
       "repository_id": 1424079682,
